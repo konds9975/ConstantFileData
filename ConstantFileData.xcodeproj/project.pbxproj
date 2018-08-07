@@ -7,13 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		FFE3268C21198C0B00EF1028 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFE3268B21198C0B00EF1028 /* AppDelegate.swift */; };
 		FFE3268E21198C0B00EF1028 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFE3268D21198C0B00EF1028 /* ViewController.swift */; };
 		FFE3269121198C0B00EF1028 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FFE3268F21198C0B00EF1028 /* Main.storyboard */; };
 		FFE3269321198C1100EF1028 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FFE3269221198C1100EF1028 /* Assets.xcassets */; };
 		FFE3269621198C1100EF1028 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FFE3269421198C1100EF1028 /* LaunchScreen.storyboard */; };
 		FFE326A121198C1100EF1028 /* ConstantFileDataTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFE326A021198C1100EF1028 /* ConstantFileDataTests.swift */; };
 		FFE326AC21198C1100EF1028 /* ConstantFileDataUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFE326AB21198C1100EF1028 /* ConstantFileDataUITests.swift */; };
+		FFE326BA21198C2F00EF1028 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFE326B921198C2F00EF1028 /* AppDelegate.swift */; };
+		FFE326BF21198C4300EF1028 /* ReminderManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFE326BB21198C4300EF1028 /* ReminderManager.swift */; };
+		FFE326C021198C4300EF1028 /* DBManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFE326BC21198C4300EF1028 /* DBManager.swift */; };
+		FFE326C121198C4300EF1028 /* TriggerMapDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFE326BD21198C4300EF1028 /* TriggerMapDataModel.swift */; };
+		FFE326C221198C4300EF1028 /* SymptomLogbookModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFE326BE21198C4300EF1028 /* SymptomLogbookModel.swift */; };
+		FFE326C521198C5C00EF1028 /* ExtentionClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFE326C321198C5C00EF1028 /* ExtentionClass.swift */; };
+		FFE326C621198C5C00EF1028 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFE326C421198C5C00EF1028 /* Constant.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,7 +41,6 @@
 
 /* Begin PBXFileReference section */
 		FFE3268821198C0B00EF1028 /* ConstantFileData.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ConstantFileData.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		FFE3268B21198C0B00EF1028 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FFE3268D21198C0B00EF1028 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		FFE3269021198C0B00EF1028 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FFE3269221198C1100EF1028 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -47,6 +52,13 @@
 		FFE326A721198C1100EF1028 /* ConstantFileDataUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ConstantFileDataUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FFE326AB21198C1100EF1028 /* ConstantFileDataUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConstantFileDataUITests.swift; sourceTree = "<group>"; };
 		FFE326AD21198C1100EF1028 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FFE326B921198C2F00EF1028 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FFE326BB21198C4300EF1028 /* ReminderManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReminderManager.swift; sourceTree = "<group>"; };
+		FFE326BC21198C4300EF1028 /* DBManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DBManager.swift; sourceTree = "<group>"; };
+		FFE326BD21198C4300EF1028 /* TriggerMapDataModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TriggerMapDataModel.swift; sourceTree = "<group>"; };
+		FFE326BE21198C4300EF1028 /* SymptomLogbookModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SymptomLogbookModel.swift; sourceTree = "<group>"; };
+		FFE326C321198C5C00EF1028 /* ExtentionClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExtentionClass.swift; sourceTree = "<group>"; };
+		FFE326C421198C5C00EF1028 /* Constant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,7 +109,13 @@
 		FFE3268A21198C0B00EF1028 /* ConstantFileData */ = {
 			isa = PBXGroup;
 			children = (
-				FFE3268B21198C0B00EF1028 /* AppDelegate.swift */,
+				FFE326B921198C2F00EF1028 /* AppDelegate.swift */,
+				FFE326BC21198C4300EF1028 /* DBManager.swift */,
+				FFE326BB21198C4300EF1028 /* ReminderManager.swift */,
+				FFE326BE21198C4300EF1028 /* SymptomLogbookModel.swift */,
+				FFE326C421198C5C00EF1028 /* Constant.swift */,
+				FFE326C321198C5C00EF1028 /* ExtentionClass.swift */,
+				FFE326BD21198C4300EF1028 /* TriggerMapDataModel.swift */,
 				FFE3268D21198C0B00EF1028 /* ViewController.swift */,
 				FFE3268F21198C0B00EF1028 /* Main.storyboard */,
 				FFE3269221198C1100EF1028 /* Assets.xcassets */,
@@ -256,8 +274,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FFE326C521198C5C00EF1028 /* ExtentionClass.swift in Sources */,
+				FFE326BF21198C4300EF1028 /* ReminderManager.swift in Sources */,
+				FFE326BA21198C2F00EF1028 /* AppDelegate.swift in Sources */,
+				FFE326C621198C5C00EF1028 /* Constant.swift in Sources */,
 				FFE3268E21198C0B00EF1028 /* ViewController.swift in Sources */,
-				FFE3268C21198C0B00EF1028 /* AppDelegate.swift in Sources */,
+				FFE326C221198C4300EF1028 /* SymptomLogbookModel.swift in Sources */,
+				FFE326C121198C4300EF1028 /* TriggerMapDataModel.swift in Sources */,
+				FFE326C021198C4300EF1028 /* DBManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
